@@ -1,0 +1,13 @@
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[user]
+	name = Mark Vasilkov
+	email = mvasilkov@gmail.com
+[help]
+	autocorrect = 1
+[pull]
+	rebase = true
+[push]
+	default = simple
