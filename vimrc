@@ -8,8 +8,16 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'klen/python-mode'
 Plugin 'mattn/emmet-vim'
+Plugin 'othree/html5.vim'
+Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-surround'
 Plugin 'elzr/vim-json'
+Plugin 'bronson/vim-trailing-whitespace'
+
+if 0
+Plugin 'cespare/vim-toml'
+Plugin 'ryanss/vim-hackernews'
+endif
 
 Plugin 'noahfrederick/vim-hemisu'
 
@@ -22,6 +30,11 @@ let g:pymode_doc = 0
 let g:pymode_lint_on_write = 0
 let g:pymode_rope = 0
 
+let g:html5_event_handler_attributes_complete = 0
+let g:html5_rdfa_attributes_complete = 0
+let g:html5_microdata_attributes_complete = 0
+let g:html5_aria_attributes_complete = 0
+
 set guicursor+=a:blinkon0
 set guifont=Nitti\ WM2\ Light:h16
 set background=light
@@ -30,9 +43,12 @@ colorscheme hemisu
 
 set hidden
 set scrolloff=4
+set number
 
 set hlsearch
 set incsearch
+set ignorecase
+set smartcase
 
 let mapleader = ';'
 
