@@ -8,6 +8,8 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'klen/python-mode'
 Plugin 'mattn/emmet-vim'
+Plugin 'tpope/vim-surround'
+Plugin 'elzr/vim-json'
 
 Plugin 'noahfrederick/vim-hemisu'
 
@@ -15,6 +17,7 @@ call vundle#end()
 filetype plugin indent on
 
 let g:pymode_python = 'python3'
+let g:pymode_folding = 0
 let g:pymode_doc = 0
 let g:pymode_lint_on_write = 0
 let g:pymode_rope = 0
@@ -35,3 +38,6 @@ let mapleader = ';'
 
 map <Leader>/ :nohlsearch<Return>
 map <Leader>= ggVG=
+
+imap <C-a> <Esc>I
+imap <C-e> <Esc>A
