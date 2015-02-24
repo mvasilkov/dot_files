@@ -1,3 +1,5 @@
+setopt no_share_history
+
 EDITOR='mvim -f --nomru -c "au VimLeave * !open -a Terminal"'
 PYTHONPATH=.
 export EDITOR PYTHONPATH

@@ -12,6 +12,7 @@ Plugin 'othree/html5.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-surround'
 Plugin 'elzr/vim-json'
+Plugin 'tikhomirov/vim-glsl'
 Plugin 'bronson/vim-trailing-whitespace'
 
 if 0
@@ -49,6 +50,10 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
+
+set autoindent
+set smartindent
+set nojoinspaces
 
 let mapleader = ';'
 
