@@ -45,6 +45,7 @@ colorscheme hemisu
 set hidden
 set scrolloff=4
 set number
+set linebreak
 
 set hlsearch
 set incsearch
@@ -65,3 +66,5 @@ map <Leader>= ggVG=
 
 imap <C-a> <Esc>I
 imap <C-e> <Esc>A
+
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
