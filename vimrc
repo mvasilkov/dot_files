@@ -16,8 +16,8 @@ Plugin 'tikhomirov/vim-glsl'
 Plugin 'bronson/vim-trailing-whitespace'
 
 if 0
-Plugin 'cespare/vim-toml'
-Plugin 'ryanss/vim-hackernews'
+    Plugin 'cespare/vim-toml'
+    Plugin 'ryanss/vim-hackernews'
 endif
 
 Plugin 'noahfrederick/vim-hemisu'
@@ -67,4 +67,9 @@ map <Leader>= ggVG=
 imap <C-a> <Esc>I
 imap <C-e> <Esc>A
 
-autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+autocmd BufNewFile,BufReadPost *.md call Setopt_md()
+
+function Setopt_md()
+    set filetype=markdown
+    setlocal spell
+endfunction
