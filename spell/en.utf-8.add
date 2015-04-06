@@ -42,3 +42,8 @@ nunjucks
 frontend
 walkthrough
 MongoDB
+MySQL
+PostgreSQL
+SQLite
+tradeoffs
+NoSQL
