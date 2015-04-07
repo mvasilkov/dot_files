@@ -13,6 +13,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-surround'
 Plugin 'elzr/vim-json'
 Plugin 'tikhomirov/vim-glsl'
+Plugin 'wincent/command-t'
 Plugin 'bronson/vim-trailing-whitespace'
 
 if 0

@@ -1,3 +1,4 @@
+setopt interactive_comments
 setopt no_share_history
 
 EDITOR='mvim -f --nomru -c "au VimLeave * !open -a Terminal"'
