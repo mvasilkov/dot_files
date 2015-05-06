@@ -9,5 +9,6 @@ export EDITOR PYTHONPATH MONO_GAC_PREFIX
 alias vi=mvim
 alias mkae=make
 alias gti=git
+alias gt=git
 
 unalias rm

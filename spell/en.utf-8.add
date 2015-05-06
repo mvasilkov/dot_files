@@ -53,3 +53,6 @@ ORM
 Mongo
 mongo
 backend
+UTF
+utf8
+utf8mb4
