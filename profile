@@ -12,3 +12,8 @@ alias gti=git
 alias gt=git
 
 unalias rm
+
+alias vault_write='vault write -address 127.0.0.1:8200'
+alias vault_read='vault read -address 127.0.0.1:8200'
+
+export GIT_HOME=$HOME/c
