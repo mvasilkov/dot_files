@@ -6,6 +6,7 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'vim-perl/vim-perl'
 Plugin 'klen/python-mode'
 Plugin 'mattn/emmet-vim'
 Plugin 'othree/html5.vim'
@@ -15,6 +16,7 @@ Plugin 'elzr/vim-json'
 Plugin 'tikhomirov/vim-glsl'
 Plugin 'wincent/command-t'
 Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'skwp/vim-html-escape'
 
 if 0
     Plugin 'cespare/vim-toml'
@@ -37,6 +39,7 @@ let g:html5_rdfa_attributes_complete = 0
 let g:html5_microdata_attributes_complete = 0
 let g:html5_aria_attributes_complete = 0
 
+set lines=40 columns=120
 set guicursor+=a:blinkon0
 set guifont=Nitti\ WM2\ Light:h16
 set background=light
